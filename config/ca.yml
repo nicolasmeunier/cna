@@ -1,0 +1,16 @@
+url: http://www.apps.cdph.ca.gov/cvl/SearchPage.aspx
+
+fields:
+  cert_type: ctl00$ContentPlaceHolderMiddleColumn$ddlCertType
+  search_type: ctl00$ContentPlaceHolderMiddleColumn$CVLSearch
+  last_name: ctl00$ContentPlaceHolderMiddleColumn$txtLastName
+  first_name: ctl00$ContentPlaceHolderMiddleColumn$txtFirstName
+  submit: ctl00$ContentPlaceHolderMiddleColumn$btnSearch2
+
+defaults:
+  cert_type: CNA
+  search_type: rdoLastFirst
+  submit: Search
+
+cert_path: '#ctl00_ContentPlaceHolderMiddleColumn_GridView1 td:nth-child(3)'
+status_path: '#ctl00_ContentPlaceHolderMiddleColumn_GridView1 td:nth-child(4)'
